@@ -1,0 +1,15 @@
+$ ./bracechecker test
+All braces matched. 
+$ ./bracechecker test0
+Mismatched } in line 4
+$ ./bracechecker test1
+Mismatched ) in line 1
+$ ./bracechecker test2
+Mismatched ] in line 3
+$ ./bracechecker test3
+Mismatched ) in line 6
+$ ./bracechecker test4
+Mismatched } in line 11
+$ ./bracechecker test5
+Mismatched { in line 1
+
